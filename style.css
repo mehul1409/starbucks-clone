@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Montserrat:ital@1&family=Mukta:wght@300&family=Nunito:wght@200&family=Poppins:wght@300;400;500;600;700&family=Rajdhani&family=Roboto&family=Roboto+Slab:wght@500&family=Ysabeau+SC:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 1.5% 3%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .24);
+    width: 100%;
+}
+
+.leftnav {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.leftnav .navitems a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin-left: 30px;
+    font-size: 1.05rem;
+    letter-spacing: 1px;
+}
+
+.leftnav .navitems a:hover {
+    color: rgb(13, 122, 13);
+}
+
+.rightnav {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.rightnav div {
+    margin-right: 15px;
+}
+
+.rightnav .location {
+    margin-right: 60px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.rightnav .location:hover {
+    color: rgb(13, 122, 13);
+}
+
+.rightnav .locationicon,
+.locationicon1 {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.button {
+    border: 1px solid black;
+    padding: 3px 15px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 0.92rem;
+    cursor: pointer;
+}
+
+.rightnav .button:hover {
+    background-color: rgb(224, 219, 219);
+}
+
+.rightnav .joinnow:hover {
+    background-color: rgb(70, 68, 68);
+}
+
+.rightnav .joinnow {
+    background-color: black;
+    color: white;
+}
+
+
+
+.section2-right {
+    background-color: #b04a5a;
+}
+
+.section1-right {
+    background-color: #006241;
+}
+
+.section3-right {
+    background-color: #d69a2d;
+}
+
+.section4-right {
+    background-color: #1e3932;
+}
+
+.section5-right {
+    background-color: #d7da58;
+}
+
+.section1 {
+    display: flex;
+    height: 80%;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.section4 {
+    height: 60vh;
+}
+
+.section1 .left {
+    flex-basis: 50%;
+}
+
+.section1 .left img {
+    height: 100%;
+    width: 100%;
+}
+
+.section1 .right {
+    flex-basis: 50%;
+    color: white;
+}
+
+.heading1 {
+    font-size: 2.6rem;
+    margin: 6% 20% 2%;
+    text-align: center;
+    font-weight: 600;
+}
+
+.heading2 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 15%;
+}
+
+.ordernow {
+    display: inline-block;
+    border: 1px solid white;
+    margin: 4% 41%;
+    align-items: center;
+}
+
+.section6 {
+    margin: 30px 0% 0;
+    padding: 5% 20%;
+    height: 60vh;
+    width: 100%;
+    box-shadow: 10px 1px 8px rgba(0, 0, 0, .24);
+}
+
+.section6 p {
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.section7{
+    height:70vh;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.section7 .features p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 6%;
+}
+
+.section7 .features{
+    display: flex;
+    flex-direction: column;
+    width:20%;
+    margin:25px 3%;
+}
+
+.section7 .features a{
+    text-decoration: none;
+    margin:12px 0;
+    color:rgba(0,0,0,.58);
+    font-size: 400;
+}
+
+.section7 .features a:hover{
+    color:black;  
+}
+.hr{
+    width:94%;
+    height:1px;
+    background-color:rgba(0, 0, 0, .58);
+    margin:auto;
+}
+
+footer{
+    height:20vh;
+}
+
+footer div , pre{
+    margin:3% 3%;
+}
+
+footer pre a{
+    text-decoration: none;
+    color:black;
+}
+
+footer pre a:hover{
+    text-decoration: underline;
+}
+
+
+@media only screen and (min-width:1240px) {
+
+    .heading1 {
+        margin: 10% 20% 2%;
+        font-size: 3rem;
+    }
+
+    .heading2 {
+        margin: 3% 20% 1%;
+        font-size: 1.5rem;
+    }
+
+    .ordernow {
+        margin: 2% 41%;
+    }
+
+    .heading4 {
+        font-size: 2.2rem;
+    }
+
+    .heading5 {
+        font-size: 1.2rem;
+    }
+}
